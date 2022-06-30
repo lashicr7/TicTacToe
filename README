@@ -1,0 +1,29 @@
+Intially we take the integer input from the user that whether he wants to play with other user/computer
+We will design the grid for both the parts similarly and represented the empty places using space :' '.
+1.For user:
+  We will take the input of the position that the player wants to fill
+ and then check whether such position exists and it is empty .If it is empty then we will fill
+ with X for player 1 and O for player 2.Then we will check for the state of the game along with filing the places
+ if it gets completed then will print the results.
+2.For computer:
+  similarly we will take input for this format and then check whether there is a chance to occupy the center
+and we will prevent the win of opponent by one step and try to win over one step.
+
+I have completed execution of the game by 3 classes
+one for the representation and making movement for the pieces
+second for the computer making moves according to our boardgrid
+last one is for merging and executing classes.
+
+
+For running the program:
+1.enter 0 for dual player or 1 for playing with computer
+2.positioning in the grid is  1 2 3
+                              4 5 6
+                              7 8 9
+3.For playing with person,enter the position of the grid occordingly.First enter player 1's input and then grid will print and then enter
+  player 2
+4.Complete the game for printing results(only for Draw case).Results display which player has won the game
+5,For playing with computer,you have to enter the input similarly as in dual player,but computer play as player 2
+  along with grid position,we also print coordinates of computer position for better understanding
+6.We will print the results at the end of the game.
+
